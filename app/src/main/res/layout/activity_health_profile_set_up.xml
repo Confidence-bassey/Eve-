@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthProfileSetUp">
+
+    <TextView
+        android:id="@+id/Sign_Up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Welcome to Eve Health Profile Update Page"
+        android:textColor=""
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/updatetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@id/Sign_Up"
+        android:gravity="center"
+        android:text="Kindly fill your details below to update your health profile"
+        android:textColor=""
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+
+    <EditText
+        android:id="@+id/Custfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updatetxt"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="firstname"
+        android:background="@drawable/round_button"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/CustlName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Custfname"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_button"
+        android:hint="lastname"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="">
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/cusContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CustlName"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_button"
+        android:drawablePadding="20dp"
+        android:hint="phone number"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/cusEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cusContact"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_button"
+        android:hint="email"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/CusAccButn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cusEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/view_design_5"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textColorHighlight=""
+        android:textStyle="bold"></Button>
+
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Sign_Up"
+        android:text="@string/provide_details"
+        android:layout_margin="30dp"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:gravity="center"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_signup_firstName"
+        android:hint="firstname"
+        android:textColor="@color/black"
+        android:textColorHint="@color/Glaucous"
+        android:layout_below="@id/Sign_Up"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_signup_lastName"
+        android:hint="lastname"
+        android:textColor="@color/black"
+        android:textColorHint="@color/Glaucous"
+        android:layout_below="@id/txt_signup_firstName"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@color/white">
+
+    </EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_signup_email"
+        android:hint="email"
+        android:textColor="@color/black"
+        android:textColorHint="@color/Glaucous"
+        android:layout_below="@id/txt_signup_lastName"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@color/white">
+
+    </EditText>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_signup_phone"
+        android:hint="phonenumber"
+        android:textColor="@color/black"
+        android:textColorHint="@color/Glaucous"
+        android:layout_below="@id/txt_signup_email"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="20dp"
+        android:background="@color/white">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSignUp"
+        android:text="Create Account"
+        android:background="@color/Dark_Pink"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_below="@id/txt_signup_phone"
+        android:layout_margin="10dp"
+        android:textColorHighlight="@color/Cerise"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:textColor="@color/white">
+    </Button>
+    -->
+
+</RelativeLayout>

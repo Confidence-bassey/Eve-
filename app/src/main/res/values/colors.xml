@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Eve color palette-->
+    <color name="Prim_col">#FF71A3</color>
+    <color name="Accent">#E4F6FE</color>
+    <color name="High_contrast">#0D1112</color>
+    <color name="medium_contrast">#2D3C42</color>
+    <color name="low_contrast">#A1AAAE</color>
+    <color name="background">#FFFCFD</color>
+    <color name="bl">#b4d4fb</color>
+
+    <!--Blue color shades-->
+    <color name="blue">#0099ff</color>
+    <color name="Sapphire_Blue">#0F52BA</color>
+    <color name="blue_1">#090Def</color>
+    <color name="blue_2">#90eDef</color>
+    <color name="blue_3">#00A3FF</color>
+    <color name="blue1">#0700C4</color>
+    <color name="blue_5">#0000FF</color>
+    <color name="blue_6">#0052FF</color>
+    <color name="blue4">#007AFF</color>
+    <color name="blue5">#00A3FF</color>
+    <color name="blue6">#00CCFF</color>
+    <color name="blue7">#0098FF</color>
+    <color name="blue8">#0098FE</color>
+    <color name="B1">#0F52BA</color>
+    <color name="B2">#4682B4</color>
+
+    <color name="cyanA100">#84FFFF</color>
+    <color name="cyanA200">#18FFFF</color>
+    <color name="cyanA400">#00E5FF</color>
+    <color name="cyanA700">#00B8D4</color>
+    <color name="lightblue900">#01579B</color>
+    <color name="lightblueA100">#80D8FF</color>
+</resources>

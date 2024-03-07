@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Dashboard"
+            android:icon="@drawable/dashboard"
+            android:title="Your dashboard"/>
+
+        <item
+            android:id="@+id/Reminders"
+            android:icon="@drawable/ic_notifications"
+            android:title="Reminders"/>
+
+        <item
+            android:id="@+id/bkappointments"
+            android:icon="@drawable/schedule"
+            android:title="Book Appointment"/>
+
+        <item
+            android:id="@+id/virtualConsult"
+            android:icon="@drawable/book_online"
+            android:title="Virtual Consultations"/>
+
+        <item
+            android:id="@+id/Education"
+            android:icon="@drawable/healthedu"
+            android:title="Education"/>
+        <item
+            android:id="@+id/PregTrack"
+            android:icon=""
+            android:title="Pregnancy Tracker"/>
+
+        <item
+            android:id="@+id/MedHist"
+            android:icon=""
+            android:title="Medical History"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/ShareApp"
+                android:icon="@drawable/ic_share"
+                android:title="Share App"/>
+
+            <item
+                android:id="@+id/chatbot"
+                android:icon="@drawable/voice_chat"
+                android:title="Chat with Eve"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/Logout"
+        android:icon="@drawable/ic_exit"
+        android:title="Logout"/>
+
+</menu>
